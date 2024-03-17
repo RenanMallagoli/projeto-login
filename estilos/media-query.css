@@ -10,6 +10,7 @@
 
     section#login{
         width: 80vw;
+        height: 370px;
     }
     section#login > div#imagem{
         float: left;
@@ -20,6 +21,14 @@
     section#login > div#form{
         float: right;
         width: 70%;
+    }
+
+    .campo{
+        margin: 20px 0px;
+    }
+
+    form input[type="submit"]{
+        margin-top: 60px;
     }
 }
 
@@ -48,5 +57,12 @@
     }
     div#form > h1 {
         font-size: 2em;
+    }
+    .campo{
+        margin: 20px 0px;
+    }
+
+    form input[type="submit"]{
+        margin-top: 60px;
     }
 }
